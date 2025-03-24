@@ -4,7 +4,7 @@ Este proyecto muestra colmo usar una **Red Neuronal Convolucional (CNN 1D)** par
 
 ---
 
-## 📦 Requisitos
+## Requisitos
 
 - Python 3.7+
 - TensorFlow
