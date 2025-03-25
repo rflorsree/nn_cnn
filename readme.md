@@ -18,9 +18,9 @@ Este modelo esta creado para trabajar con secuencias pequeñas de datos univaria
 
 
 
-### Arquitectura del modelo  (Conv1D. (2024, junio). TensorFlow. https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D)
+### Arquitectura del modelo .
 
-
+- Referencias: Conv1D. (2024, junio). TensorFlow. https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D
 
 model = Sequential([
     Conv1D(filters=32, kernel_size=2, activation='relu', input_shape=(3,1)),
