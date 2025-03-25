@@ -17,7 +17,10 @@ Este proyecto muestra colmo usar una **Red Neuronal Convolucional (CNN 1D)** par
 Este modelo esta creado para trabajar con secuencias pequeñas de datos univariantes, es decir, datos que tienen una sola caracteristica por muestra y una longitud temporal de 3 pasos por ejemplo, una secuencia de tres valores: [x1, x2, x3].
 
 
-### Arquitectura del modelo  (Modelo proporcionado por TensorFlow)
+
+### Arquitectura del modelo  (Conv1D. (2024, junio). TensorFlow. https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv1D)
+
+
 
 model = Sequential([
     Conv1D(filters=32, kernel_size=2, activation='relu', input_shape=(3,1)),
